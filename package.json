@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": false,
   "publishConfig": {
-    "projeto-teste:registry": "https://npm.pkg.github.com"
+    "ufn-teste:registry": "https://npm.pkg.github.com"
   },
     "scripts": {
     "serve": "vue-cli-service serve",
