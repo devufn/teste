@@ -1,8 +1,11 @@
 {
-  "name": "projeto-teste",
-  "version": "0.1.0",
+  "name": "ufn-teste",
+  "version": "0.1.1",
   "private": false,
-  "scripts": {
+  "publishConfig": {
+    "projeto-teste:registry": "https://npm.pkg.github.com"
+  },
+    "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -34,10 +37,22 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  }, 
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devufn/ufn-teste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devufn/ufn-teste/issues"
+  },
+  "homepage": "https://github.com/devufn/ufn-teste#readme"
 }
